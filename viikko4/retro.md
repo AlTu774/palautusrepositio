@@ -4,3 +4,4 @@ In a “Glad, Sad, Mad” type retrospective each team member can write on notes
 
 
 ok
+ok
