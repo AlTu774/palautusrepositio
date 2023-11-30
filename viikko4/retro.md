@@ -2,3 +2,5 @@
 
 In a “Glad, Sad, Mad” type retrospective each team member can write on notes observations or opinions on the sprint. Each note is categorized positively or negatively in the “Glad”, “Sad” or “Mad” categories. The notes are then divided on a whiteboard based on their categories. The Scrum master leads the discussion on the observations. The length of the sessions is up to 60 minutes.
 
+
+
