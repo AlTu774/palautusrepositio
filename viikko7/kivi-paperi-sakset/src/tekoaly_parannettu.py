@@ -15,7 +15,7 @@ class TekoalyParannettu:
         self._muisti[self._vapaa_muisti_indeksi] = siirto
         self._vapaa_muisti_indeksi = self._vapaa_muisti_indeksi + 1
 
-    def anna_siirto(self):
+    def tee_siirto(self):
         if self._vapaa_muisti_indeksi == 0 or self._vapaa_muisti_indeksi == 1:
             return "k"
 
@@ -41,10 +41,13 @@ class TekoalyParannettu:
         # - jos papereita eniten, annetaan aina sakset
         # muulloin annetaan aina kivi
         if k > p or k > s:
+            print("p")
             return "p"
         elif p > k or p > s:
+            print("s")
             return "s"
         else:
+            print("k")
             return "k"
 
         # Tehokkaampiakin tapoja löytyy, mutta niistä lisää
